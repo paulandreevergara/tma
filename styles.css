@@ -1,0 +1,311 @@
+body{
+	overflow-y: scroll;
+	font-family: Tahoma;
+    font-size:14px;
+	position:relative;
+}
+
+#logo-wrapper{
+    background-image: url("images/bg.jpg");
+}
+
+#mabini-logo img{
+    width: auto;
+    height: 59px;
+}
+
+#logo-header{
+	margin-left: auto ;
+	margin-right: auto ;    
+}
+
+#logo-header img{
+    width: 55%;
+    height: auto;
+}
+
+hr{
+    margin-top: -2px;
+    width:100%;
+    border-width: 2px;
+}
+
+#nav{
+    margin-top: -14px;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#nav-wrapper{
+    background-image: url("images/bg.jpg");
+    height:33px;
+}
+
+#nav ul{
+    width: 990px;
+	font-family: Tahoma;
+	list-style-type: none;
+	padding: 5px;
+}
+
+#nav ul li{
+    display: inline-block;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+#nav ul li a,visited{
+	color: white;
+	display: block;
+	padding: 0px;
+	text-decoration: none;
+}
+
+#nav ul li a:hover{
+	text-decoration: underline ;
+}
+
+#nav ul li:hover ul{
+	display: block;
+}
+
+#nav ul ul{
+	font-family: Tahoma;
+	display: none;
+	position: absolute;
+	background: #222;
+	border: solid 5px #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width:175px;
+	margin-bottom:-5px;
+    border-top:1px
+}
+
+#nav ul ul li{
+	display: block;
+	margin: 0;
+    border-right: none;
+}
+
+#nav ul ul li:hover{
+	display:block;
+	padding: 0;
+}
+
+#nav ul ul li a:hover{
+	display:block;
+	padding: 0;
+	color:white;
+}
+
+#footer {
+    clear:both;
+    color: white;
+    height: 42px;
+    padding: 30px 0px;
+    margin-top:-8px;
+    font-size: 80%;
+    background-image: url("images/bg.jpg");
+    text-align: center;
+    width:100%;
+    background-color: #222;
+}
+
+#footer a{
+    color: white;
+}
+
+#content-wrapper {
+    height: auto;
+    width: 100%;
+    text-align:center;
+    background-image: url("images/body-bg.jpg");
+    background-size:100% 100%;
+    background-position: center;
+}
+
+#content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: white;
+}
+
+
+.panel img{
+    margin-top: 20px;
+    width: 950px;
+    height: auto;
+}
+
+.stepcarousel{
+    position: relative; /*leave this value alone*/
+    overflow: scroll; /*leave this value alone*/
+    width: 900px; /*Width of Carousel Viewer itself*/
+    height: 500px; /*Height should enough to fit largest content's height*/
+    -webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.stepcarousel .belt{
+    position: absolute; /*leave this value alone*/
+    left: 0;
+    top: 0;
+}
+
+.stepcarousel .panel{
+    float: left; /*leave this value alone*/
+    overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+    margin: 10px; /*margin around each panel*/
+    width: 900px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+span.paginatecircle{ /* CSS for paginate circle spans. Required */
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+span.paginatecircle:hover{
+    background: gray;
+}
+
+span.paginatecircle.selected{
+    background: black;
+}
+
+.td-nav-menu{
+    background-color: #01083F;
+}
+
+#nav-menu-wrapper{
+    width:200px; 
+    min-height:500px;
+}
+
+#nav-menu ul{
+    text-align:left;
+	font-family: Tahoma;
+	list-style-type: none;
+}
+
+#nav-menu ul li{
+    margin-left:-37px;
+    padding-left:30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#nav-menu ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+#nav-menu ul li:hover{
+    background-color:#E8AD15;
+}
+
+#nav-menu ul li a:hover{
+    text-decoration:underline;
+}
+
+.nav-selected{
+    background-color:#E8AD15;
+}
+
+h4{
+    color:#01083F;
+    font-family:Tahoma; 
+}
+
+h1{
+    color:#01083F;
+    font-family:Tahoma; 
+}
+
+.navh4{
+    color:#E8AD15;
+    font-family:Tahoma; 
+}
+#main-content {
+    padding-top:14px;
+    margin-left:30px; 
+    line-height: 200%;
+    font-size: 14px;
+    margin-right:30px;
+}
+#faculty-members table{
+    padding-left:30px;
+}
+#faculty-members img{
+    height:100px;
+    width:auto;
+}
+
+.table-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom-content {
+    margin-top:10px;
+    background-color:white;
+    height:500px;
+}
+.mid-column {
+    height:auto;
+}
+
+#nav-menu {
+    font-size:15px;
+}
+
+.pmessage {
+    padding-top:15px;
+    padding-left:15px;
+    line-height: 200%;
+    font-size: 14px;
+}
+
+#pmessage img{
+    height:450px;
+    margin-top:-10px;
+}
+
+.history-img {
+    height:250px;
+}
+.accordion-h4 {
+    color:white;
+    background-color:#01083F;
+    width:700px;
+    text-align: center;
+    font-family: Tahoma;
+    cursor:pointer;
+}
+
+.accordion-p {
+    margin-right:40px;
+}
+
+.faculty-img {
+    height:350;
+    
+}
+
+.enrollment-form-table {
+    font-size:14px;
+}
+
+.enrollment-link {
+    color: #01083F;
+}
